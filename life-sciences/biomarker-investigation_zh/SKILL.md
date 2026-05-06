@@ -1,5 +1,5 @@
 ---
-name: patsnap-lifescience-biomarker-investigation_zh
+name: biomarker-investigation-zhcn
 description: |
   根据查询搜索与生物标志物相关的学术和专利文献。
 
@@ -15,9 +15,13 @@ description: |
   - 搜索以转氨酶作为诊断标志物的临床试验
 license: MIT
 metadata:
-  author: patsnap
-  version: '1.0.0'
-  domain: lifescience
+  author: PatSnap
+  category: "Life Science"
+  version: 1.0.0
+---
+  
+## Setup
+- 获取API KEY: https://open.patsnap.com
 ---
 
 # 生物标志物调研技能指南
