@@ -1,5 +1,5 @@
 ---
-name: patsnap-lifescience-biomarker-investigation
+name: biomarker-investigation
 description:
   Search the academic and patent literatures related to the biomarkers, based on the queries
 
@@ -15,9 +15,13 @@ description:
   - Search for clinical trials that use transaminases as diagnostic markers.
 license: MIT
 metadata:
-  author: patsnap
-  version: '1.0.0'
-  domain: lifescience
+  author: PatSnap
+  category: "Life Science"
+  requires: "PATSNAP_API_KEY"
+---
+  
+## Setup
+- Get your API key: https://open.patsnap.com
 ---
 
 # Biomarker Investigation Skill Guide
