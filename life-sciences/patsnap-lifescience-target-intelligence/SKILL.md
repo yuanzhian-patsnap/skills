@@ -1,28 +1,32 @@
 ---
-name: patsnap-lifescience-target-intelligence
-description:
-  The users typically query a specific biomedical target, may including related biological and pharmaceutical details
-  It may emphasize the entities, labels and information closely related to the target.
-  The returned target intellegence report should cover the drugs of the specific targets, besides the target itself details, based on the user queries.
-
-  Load the skill when the queries are about
-  - Target structure and biological functions
-  - Competitive intelligence of pipelines with targets
-  - Development of targeting pharmaceuticals
-  - Target druggability or tractability
-  - The indication treated with targets
-
-  Typical queries
-  - EGFR
-  - Drugs targeting P53
-  - Druggability of Beta-amyloid
-  - Cancers treated by targeting BRCA1 and BRCA2 Proteins
+name: target-intelligence
+version: 1.0.0
+description: Provides target intelligence report covering target details, drugs, pipelines, druggability, and indications.
 license: MIT
 metadata:
-  author: patsnap
-  version: '1.0.0'
-  domain: lifescience
+  author: PatSnap
+  category: "Life Science"
+  requires: ["PATSNAP_API_KEY"]
+  setup_guide: "Get your API Key at https://open.patsnap.com"
 ---
+
+## When to use this skill
+- Target structure and biological functions
+- Competitive intelligence of pipelines with targets
+- Development of targeting pharmaceuticals
+- Target druggability or tractability
+- The indication treated with targets
+
+## Typical queries
+- EGFR
+- Drugs targeting P53
+- Druggability of Beta-amyloid
+- Cancers treated by targeting BRCA1 and BRCA2 Proteins
+  
+## Setup
+1. Get your API key: https://open.patsnap.com
+2. Generate a token (click "Token" link on that page)
+
 
 # Target Intelligence Skill Guide
 
