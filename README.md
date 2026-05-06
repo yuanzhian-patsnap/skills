@@ -38,12 +38,12 @@ Pharmaceutical and biomedical intelligence skills. All 6 skills integrate with t
 
 | Skill | Description |
 |-------|-------------|
-| `patsnap-lifescience-biomarker-investigation` | Search academic and patent literature related to biomarkers |
-| `patsnap-lifescience-company-profiling` | Pharmaceutical company profiles and investment/collaboration recommendations |
-| `patsnap-lifescience-disease-investigation` | Comprehensive disease investigation combining literature, epidemiology, clinical data, and pharma intelligence |
-| `patsnap-lifescience-pharmaceuticals-exploration` | Drug-related Q&A covering patents, literature, clinical trials, and licensing transactions |
-| `patsnap-lifescience-precision-oncology` | Cancer treatment reports combining literature, clinical guidance, and trial data |
-| `patsnap-lifescience-target-intelligence` | Biomedical target analysis with related biological and pharmaceutical details |
+| `biomarker-investigation` | Search academic and patent literature related to biomarkers |
+| `company-profiling` | Pharmaceutical company profiles and investment/collaboration recommendations |
+| `disease-investigation` | Comprehensive disease investigation combining literature, epidemiology, clinical data, and pharma intelligence |
+| `pharmaceuticals-exploration` | Drug-related Q&A covering patents, literature, clinical trials, and licensing transactions |
+| `precision-oncology` | Cancer treatment reports combining literature, clinical guidance, and trial data |
+| `target-intelligence` | Biomedical target analysis with related biological and pharmaceutical details |
 
 ### IP (Intellectual Property & Innovation)
 
