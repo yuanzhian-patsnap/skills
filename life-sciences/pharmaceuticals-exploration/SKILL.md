@@ -38,7 +38,7 @@ claude mcp add --transport http pharma_intelligence \
 **All life‑science MCP servers** (✅ = required for this skill):
 
 - ✅ **[Pharma Intelligence](https://open.patsnap.com/marketplace/mcp-servers/096456)** — drugs, trials, patents, targets, biomarkers, companies, diseases
-- ✅**[Chemical Molecular](https://open.patsnap.com/marketplace/mcp-servers/713886)** — sequences, similarity, PDB, pharmacodynamics
+- ✅ **[Chemical Molecular](https://open.patsnap.com/marketplace/mcp-servers/713886)** — sequences, similarity, PDB, pharmacodynamics
 - **[Biology Modality](https://open.patsnap.com/marketplace/mcp-servers/06e741)** — molecules, binding assays, pretraining, dose predictions
 
 💡 **Other agents?** Visit any service page above, then switch tabs in the bottom‑right corner for Cursor, API, and other configurations.
