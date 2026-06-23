@@ -1,4 +1,4 @@
-﻿---
+---
 name: scout-tech-landscape-zhcn
 description: |
   中文技术版图扫描 Skill，用于分析材料技术格局、价值链、关键玩家、研发趋势、机会空间与风险。

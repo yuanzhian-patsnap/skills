@@ -1,4 +1,4 @@
-﻿---
+---
 name: tech-to-product-zhcn
 description: |
   中文技术产品化 Skill，用于将材料技术转化为真实产品、应用场景、系统方案和落地路线。

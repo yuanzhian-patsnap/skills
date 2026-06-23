@@ -1,4 +1,4 @@
-﻿---
+---
 name: alloy-composition-search-zhcn
 description: |
   中文合金成分检索 Skill，用于理解用户查询、检索和分析合金成分数据，并输出结构化成分表、筛选结果和专业洞察。
