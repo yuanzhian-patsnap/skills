@@ -19,7 +19,7 @@ npx skills add patsnap/skills/tree/main/materials/understand-technology
 | Type | Count | Notes |
 |---|---:|---|
 | Total skill directories | 10 | Five English skills plus five `-zhcn` variants. |
-| Skill Hub imported directories | 0 | No materials skills were added in the 2026-06-30 Skill Hub import batch. |
+| Open Platform imported directories | 0 | No materials skills were added in the 2026-06-30 Skill Hub / Open Platform import batch. |
 
 ## Available Skills
 

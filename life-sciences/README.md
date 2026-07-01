@@ -1,6 +1,6 @@
 # PatSnap Life Sciences Skills
 
-Life Sciences skills support pharmaceutical and biomedical intelligence workflows, including disease, target, biomarker, company, drug, oncology, antibody FTO, generic-drug opportunity, ADC patent monitoring, and target-discovery analysis.
+Life Sciences skills in this directory support the core pharmaceutical and biomedical intelligence workflows, including disease, target, biomarker, company, drug, and oncology analysis. Imported antibody FTO, generic-drug opportunity, ADC patent monitoring, and target-discovery workflows now live in `../open-platform/`.
 
 Install all life-sciences skills:
 
@@ -18,9 +18,9 @@ npx skills add patsnap/skills/tree/main/life-sciences/target-intelligence
 
 | Type | Count | Notes |
 |---|---:|---|
-| Total skill directories | 16 | Includes original life-sciences skills, Chinese variants, and imported Skill Hub workflows. |
+| Total skill directories | 12 | Six English skills plus six `-zhcn` variants. |
 | Core/original skill directories | 12 | Six English skills plus six `-zhcn` variants. |
-| Skill Hub imported directories | 4 | Added from the 2026-06-30 Skill Hub batch. |
+| Open Platform imported directories | 0 | Imported Skill Hub / Open Platform workflows live under `../open-platform/`. |
 
 ## Core Skills
 
@@ -35,16 +35,9 @@ The original life-sciences skills integrate with PatSnap LifeScience MCP service
 | `precision-oncology` | `precision-oncology-zhcn` | Cancer treatment reports combining literature, clinical guidance, and trial data. |
 | `target-intelligence` | `target-intelligence-zhcn` | Biomedical target analysis with related biological and pharmaceutical details. |
 
-## Skill Hub Imports
+## Open Platform Skills
 
-The following biomedical workflows were imported from the Skill Hub 2026-06-30 batch.
-
-| Skill | Main Use |
-|---|---|
-| `adc-patent-weekly-report` | Generate ADC patent intelligence weekly reports. |
-| `generic-drug-scout-v1` | Screen China small-molecule crystal-form patent expiry opportunities and generate generic-drug opportunity reports. |
-| `mab-fto-check` | Run antibody drug FTO recall and evidence workflows, including sequence and modification search modules. |
-| `target-discovery` | Discover and prioritize targets from compound SMILES using ADMET, scaffold, similarity, target intelligence, FTO and SAR analysis. |
+Additional biomedical workflows imported from Skill Hub are available in `../open-platform/`, including `adc-patent-weekly-report`, `generic-drug-scout-v1`, `mab-fto-check`, and `target-discovery`.
 
 ## MCP Setup Guide
 
