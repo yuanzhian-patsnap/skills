@@ -47,21 +47,14 @@ skills/
 
 ## Open Platform Imports
 
-The 2026-06-30 Skill Hub batch has been normalized into the top-level `open-platform/` directory instead of being mixed into the core domain directories:
+The 2026-06-30 Skill Hub batch has been normalized into the top-level `open-platform/` directory instead of being mixed into the core domain directories. Two older duplicate submissions from the same authors were removed from the import metadata (`SKILL-0009` and `SKILL-0038`), leaving the later submissions (`SKILL-0084` and `SKILL-0082`) as the retained records.
 
 | Domain | Imported skills |
 |---|---:|
 | Engineering / R&D source category | 27 |
 | IP source category | 52 |
 | Life Sciences source category | 4 |
-| Total unique imported skill directories | 83 |
-
-Two source records shared the same target skill directory and were intentionally collapsed by canonical skill name:
-
-| Target skill | Source records |
-|---|---|
-| `open-platform/tech-insight-report` | `SKILL-0009`, `SKILL-0084` |
-| `open-platform/patent-quality-review-pro` | `SKILL-0038`, `SKILL-0082` |
+| Total imported skill directories | 83 |
 
 The generated upload/index metadata is available locally at `outputs/skill.json` when the import-preparation outputs are present. It includes `skill_name`, `github_url`, `description`, domain, path and `SKILL.md` file location for the newly imported skills.
 

@@ -18,17 +18,10 @@ npx skills add patsnap/skills/tree/main/open-platform/patent-quality-review-pro
 
 | Type | Count | Notes |
 |---|---:|---|
-| Total skill directories | 83 | Canonicalized from 85 source records. |
+| Total skill directories | 83 | After removing two older duplicate submissions from the same authors: `SKILL-0009` and `SKILL-0038`. |
 | Engineering / R&D source category | 27 | Technical reports, market assessment, TRIZ workflows, industry intelligence, due diligence, forecasting. |
 | IP source category | 52 | Patent search, FTO, claims review, patent quality, portfolio, risk, transfer, lifecycle and asset workflows. |
 | Life Sciences source category | 4 | ADC patent monitoring, generic-drug scouting, antibody FTO, target discovery. |
-
-Two source records shared the same canonical skill directory and were intentionally collapsed:
-
-| Target skill | Source records |
-|---|---|
-| `tech-insight-report` | `SKILL-0009`, `SKILL-0084` |
-| `patent-quality-review-pro` | `SKILL-0038`, `SKILL-0082` |
 
 ## Skill Groups
 
@@ -42,8 +35,8 @@ Two source records shared the same canonical skill directory and were intentiona
 | Technology transfer and commercialization | `tech-transfer-match`, `tech-transfer-target-discovery`, `discover-patent-white-space-opportunities`, `opportunities`, `inner-mongolia-energy-ip-platform`, `external-tech-acquisition` |
 | Engineering, R&D, and technical reports | `ai-amazing-tech`, `auto-industry-report`, `competitive-intel-report`, `corp-innovation-brief`, `feasibility-review`, `industry-analysis`, `industry-chain-intelligence`, `market-demand-assessment`, `oled-intelligence-portal`, `rd-direction-finder`, `semi-intel-platform`, `smart-construction-analysis`, `smart-intel`, `tech-insight-report`, `tech-report-skill`, `xiong-an-due-diligence` |
 | TRIZ and innovation workflows | `altshuller-perspective`, `ceae-skill`, `innovation-radar`, `tech-evolution-analysis`, `triz-functional-search`, `catalyst-method-auditor` |
-| Platform and demo workflows | `client-demo-portal`, `qiye-risk-platform-v2` |
-| Life sciences and biomedical workflows | `adc-patent-weekly-report`, `generic-drug-scout-v1`, `mab-fto-check`, `target-discovery` |
+| Platform and demo workflows | `client-demo-portal`, `qiye-risk-platform` |
+| Life sciences and biomedical workflows | `adc-patent-weekly-report`, `generic-drug-scout`, `mab-fto-check`, `target-discovery` |
 | Translation and overseas patent workflows | `overseas-patent-translation` |
 
 ## Usage Notes

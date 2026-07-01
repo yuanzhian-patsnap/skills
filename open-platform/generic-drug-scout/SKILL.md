@@ -1,7 +1,6 @@
 ---
-name: generic-drug-scout-v1
-description: |
-  Run 仿药速探 V1 to create a static interactive HTML report or seeded screening page for generic-drug opportunity discovery. Use when the user asks to screen China small-molecule crystal-form patent expiry opportunities, generate 仿药速探 V1 with results, or create a local report backed by configured Zhihuiya/PatSnap MCPs.
+name: generic-drug-scout
+description: Run 仿药速探 V1 to create a static interactive HTML report or seeded screening page for generic-drug opportunity discovery. Use when the user asks to screen China small-molecule crystal-form patent expiry opportunities, generate 仿药速探 V1 with results, or create a local report backed by configured Zhihuiya/PatSnap MCPs.
 ---
 
 # 仿药速探 V1
@@ -49,13 +48,13 @@ When the user asks to screen opportunities, the final deliverable should be a st
 First run live MCP screening:
 
 ```powershell
-python generic-drug-scout-v1\scripts\create_seeded_screening_platform.py --target .\仿药速探V1_真实结果平台 --window-years 2 --overwrite
+python generic-drug-scout\scripts\create_seeded_screening_platform.py --target .\仿药速探V1_真实结果平台 --window-years 2 --overwrite
 ```
 
 Then create the static report from the MCP result JSON:
 
 ```powershell
-python generic-drug-scout-v1\scripts\create_static_report_html.py --data .\仿药速探V1_真实结果平台\first_screening_result.json --output .\仿药速探V1_真实数据静态报告.html
+python generic-drug-scout\scripts\create_static_report_html.py --data .\仿药速探V1_真实结果平台\first_screening_result.json --output .\仿药速探V1_真实数据静态报告.html
 ```
 
 After the report is generated, open it automatically in the default browser:
@@ -78,7 +77,7 @@ The resulting page is a report-style HTML with first-pass results already loaded
 For UI preview only, without rerunning MCP, the bundled sample result can be used:
 
 ```powershell
-python generic-drug-scout-v1\scripts\create_static_report_html.py --output .\仿药速探V1_样例静态报告.html
+python generic-drug-scout\scripts\create_static_report_html.py --output .\仿药速探V1_样例静态报告.html
 ```
 
 `create_seeded_screening_platform.py` writes `first_screening_result.json` beside the generated app for auditability. That JSON contains the fixed V1 parameters and the raw report result used to seed the page.
@@ -110,7 +109,7 @@ Do not add tables, candidate counts, drug lists, or any other result content aft
 Use this only when the user explicitly wants to adjust the expiry window and rerun screening inside the page:
 
 ```powershell
-python generic-drug-scout-v1\scripts\create_seeded_screening_platform.py --window-years 2 --overwrite
+python generic-drug-scout\scripts\create_seeded_screening_platform.py --window-years 2 --overwrite
 python .\仿药速探V1_首轮结果平台\app\server.py
 ```
 
@@ -125,7 +124,7 @@ http://127.0.0.1:8790/
 Use this only when the user wants an empty/manual platform, or when MCP screening is unavailable and the user still wants to inspect the UI:
 
 ```powershell
-python generic-drug-scout-v1\scripts\materialize_platform.py --target .\仿药速探V1平台 --overwrite
+python generic-drug-scout\scripts\materialize_platform.py --target .\仿药速探V1平台 --overwrite
 ```
 
 Then run:
@@ -185,7 +184,7 @@ The generated platform is a local deliverable. Other users need their own MCP co
 
 ## Packaging
 
-To package this skill for sharing, zip the whole `generic-drug-scout-v1` folder. Do not include runtime `__pycache__` folders.
+To package this skill for sharing, zip the whole `generic-drug-scout` folder. Do not include runtime `__pycache__` folders.
 
 ## 使用前配置
 本 Skill 依赖智慧芽开放平台 MCP 服务：
